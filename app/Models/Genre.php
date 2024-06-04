@@ -10,6 +10,8 @@ class Genre extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['ID', 'name', 'description'];
+
     protected $genres = [
         [
             'id' => 1,

@@ -91,7 +91,7 @@
                                             <img src="src/images/movie/{{ $review->poster}}" alt="Product" />
                                             </div>
                                         <p class="text-sm font-medium text-black dark:text-white">
-                                        {{ $review->movie}}
+                                        {{ $review->title}}
                                         </p>
                                     </div>
                                     <div class="col-span-1 flex items-center">
